@@ -6,10 +6,13 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: Courier, 'Courier New', monospace;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
-  background: #fff;
-  color: #000;
+  background-image: url("./background.png");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-color: #2a3642;
+  
 }
 
 a {
@@ -27,4 +30,28 @@ main {
 
 footer {
   text-align: center;
+}
+.pageText{
+  color: #FFF;
+  background-color:#2a3642;
+  text-align: center;
+  width: calc(50% - 2em);
+  margin-left: 2em;
+  line-height: 1.5;
+  float: left;
+}
+.content{
+  margin-left: 2em;
+  line-height: 1.5;
+  float: left;
+   margin-right: 2em;
+  text-align: justify;
+}
+.description{
+  color: #FFF;
+  background-color:#2a3642;
+  text-align: center;
+  margin-left: 2em;
+  line-height: 1.5;
+  float: left;
 }
