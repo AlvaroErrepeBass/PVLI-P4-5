@@ -56,12 +56,12 @@ footer {
 .description{
   color: #FFF;
   background-color:#2a3642;
-  font-size: 2.8rem;
+  
   text-align: center;
   margin-left: 2em;
   line-height: 1.5;
   float: left;
 }
-.image{
-position: relative;
+.video{
+  margin-left: calc(50% - 28em);
 }
