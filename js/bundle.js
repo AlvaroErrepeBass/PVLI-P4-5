@@ -13,7 +13,7 @@ var BootScene = {
     this.game.load.image('logo', 'images/phaser.png');
     this.game.load.image('preloader_bar', 'images/preloader_bar.png');
     this.game.load.audio('selectFx', 'sounds/selectFx.wav');
-    this.game.load.audio('menu', 'sounds/menu.wav');
+    this.game.load.audio('menu', 'sounds/menu.mp3');
   },
 
   create: function () {
@@ -51,9 +51,9 @@ var PreloaderScene = {
     this.game.load.audio('enemyFx', 'sounds/GoathelmFx.wav');
     this.game.load.audio('dieFx', 'sounds/dieFx.wav');
 
-    this.game.load.audio('frenesi', 'sounds/frenesi.wav');
-    this.game.load.audio('game', 'sounds/game.wav');
-    this.game.load.audio('win', 'sounds/win.wav');
+    this.game.load.audio('frenesi', 'sounds/frenesi.mp3');
+    this.game.load.audio('game', 'sounds/game.mp3');
+    this.game.load.audio('win', 'sounds/win.mp3');
 
     this.load.onLoadComplete.add(this.loadComplete, this);
   },
